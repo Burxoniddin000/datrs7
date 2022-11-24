@@ -1,0 +1,118 @@
+.hro {
+    background-image: url(../../img/Bitmap.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 27px;
+    padding-left: 85px;
+}
+
+.hro__inner {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    max-width: 493px;
+    padding-top: 117px;
+}
+
+.hro__taxt {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    max-width: 391px;
+    margin-top: 32px;
+}
+
+.hro__link:hover {
+    background: #66D2CF;
+    border-radius: 6px;
+}
+
+.hro__link {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+    padding: 15px 31px;
+    margin-top: 56px;
+    margin-bottom: 117px;
+}
+
+@media screen and (max-width:997px) {
+    .hro {
+        background-image: url(../../img/Bitmap2.jpg);
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 53px;
+        padding-left: 58px;
+    }
+
+    .hro__inner {
+        font-size: 48px;
+        line-height: 48px;
+        max-width: 329px;
+        padding-top: 104px;
+        margin-top: 54px;
+    }
+
+    .hro__taxt {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 372px;
+        margin-bottom: 44px;
+    }
+
+    .hro__link {
+        margin-bottom: 104px;
+    }
+}
+
+@media screen and (max-width:735px) {
+    .hro {
+        background-image: url(../../img/Object.jpg);
+        background-size: 100%;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        margin-top: 40px;
+        padding: 0 35px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sitx-main__conatainer {
+        min-width: 375px;
+        margin: 0 auto;
+
+    }
+
+    .hro__inner {
+        font-size: 40px;
+        line-height: 40px;
+        max-width: 279px;
+        padding-top: 100px;
+        margin: 0;
+    }
+
+    .hro__taxt {
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 279px;
+        margin-top: 24px;
+    }
+
+    .hro__link {
+        margin-top: 39px;
+        margin-bottom: 99px;
+    }
+}
